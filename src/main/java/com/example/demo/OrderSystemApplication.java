@@ -8,7 +8,7 @@ public class OrderSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OrderSystemApplication.class, args);
-		System.out.println("{Program ini berjalan}");
+		System.out.println("Running");
 	}
 
 }

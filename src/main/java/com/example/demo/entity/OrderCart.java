@@ -15,7 +15,7 @@ public class OrderCart {
     private String customerAddress;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "order_cart_id") // Creates a foreign key in the OrderItem table
+    @JoinColumn(name = "order_cart_id") 
     private List<OrderItem> items;
 
     private Double totalPrice = 0.0;

@@ -1,7 +1,6 @@
 package com.example.demo.entity;
 
 import org.antlr.v4.runtime.misc.NotNull;
-
 import jakarta.persistence.*;
 import lombok.Data;
 
